@@ -231,7 +231,7 @@ int main()
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    Shader shader("simpleVS.vs", "simpleFS.fs");
+    Shader shader("VS.vs", "FS.fs");
     Shader skyboxShader("skybox.vs", "skybox.fs");
     Shader textShader("TextShader.vs", "TextShader.fs");
 
